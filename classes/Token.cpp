@@ -4,8 +4,6 @@
 
 #include "Token.h"
 
-#include <algorithm>
-
 void Token::createNgrams() {
     nGrams.clear();
 
@@ -13,12 +11,12 @@ void Token::createNgrams() {
 
     // Strip padding if token longer than 5 characters.
     if (tokenValue.length() > 5) {
-        tokenValue.erase(std::remove_if(tokenValue.begin(), tokenValue.end(), ::isspace), tokenValue.end());
+        std::erase_if(tokenValue, ::isspace);
     }
 
     // Generate n-grams.
     for (int n = 1; n <= MAX_N_GRAM_LENGTH; ++n) {
-        for (int i = 0; i + n <= (int)tokenValue.length(); ++i) {
+        for (int i = 0; i + n <= tokenValue.length(); ++i) {
             std::string nGram = tokenValue.substr(i, n);
             nGrams.emplace_back(n, nGram);
         }

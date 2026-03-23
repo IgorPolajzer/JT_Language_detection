@@ -12,12 +12,17 @@
 
 
 class TextCategorization {
+    static constexpr std::string LANGUAGE_CORPUS_FOLDER = "languages/";
+    static constexpr std::string PROFILE_FOLDER = "profiles/";
+
     std::vector<Token> tokens;
-
+    std::map<std::string, int> frequencies;
 public:
-    void tokenize(const std::string& text);
-
     void generateProfile(const std::string& fileName);
+    void tokenize(const std::string& text);
+    void hashFrequencies();
+    void printNGrams() const;
+    void printFrequencies() const;
 
     std::vector<Token> getTokens() {
         return tokens;
