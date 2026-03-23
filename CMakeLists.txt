@@ -3,4 +3,8 @@ project(RV1)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(RV1 main.cpp)
+add_executable(RV1 main.cpp
+        TextCategorization.cpp
+        TextCategorization.h
+        Token.h
+        Token.cpp)
