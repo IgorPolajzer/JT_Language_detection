@@ -11,7 +11,7 @@ struct Language {
         ENGLISH,
         SPANISH,
         GERMAN,
-        ITALIAN,
+        CROATIAN,
         SLOVENIAN,
         UNKNOWN
     };
@@ -21,7 +21,7 @@ struct Language {
             case ENGLISH:  return "English";
             case SPANISH:  return "Spanish";
             case GERMAN:   return "German";
-            case ITALIAN: return "Italian";
+            case CROATIAN: return "Croatian";
             case SLOVENIAN: return "Slovenian";
             case UNKNOWN: return "Unknown";
         }
@@ -31,7 +31,7 @@ struct Language {
         if (s == "en_profile.txt")  return ENGLISH;
         if (s == "es_profile.txt")  return SPANISH;
         if (s == "ge_profile.txt")   return GERMAN;
-        if (s == "it_profile.txt") return ITALIAN;
+        if (s == "hr_profile.txt") return CROATIAN;
         if (s == "si_profile.txt") return SLOVENIAN;
         return UNKNOWN;
     }

@@ -4,7 +4,7 @@
 #include "classes/TextCategorization.h"
 
 void generateCorporaProfiles(TextCategorization& textCategorization) {
-    const std::vector<std::string> profiles = {"en.txt", "es.txt", "ge.txt", "it.txt", "si.txt"};
+    const std::vector<std::string> profiles = {"en.txt", "es.txt", "ge.txt", "hr.txt", "si.txt"};
 
     for (const auto &profile : profiles) {
         textCategorization.generateProfile(std::string(TextCategorization::CORPORA_SRC_DIR) + profile, true);
