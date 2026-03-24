@@ -1,26 +1,34 @@
 #include <iostream>
-
+#include <vector>
+#include <string>
 #include "classes/TextCategorization.h"
 
 void generateCorporaProfiles(TextCategorization& textCategorization) {
     const std::vector<std::string> profiles = {"en.txt", "es.txt", "ge.txt", "hr.txt", "si.txt"};
 
     for (const auto &profile : profiles) {
-        textCategorization.generateProfile(TextCategorization::LANGUAGE_CORPUS_FOLDER + profile, true);
+        textCategorization.generateProfile(std::string(TextCategorization::CORPORA_SRC_DIR) + profile, true);
     }
 }
 
 void classify(TextCategorization& textCategorization, const std::string& fileName) {
-    textCategorization.generateProfile(TextCategorization::TEST_FILES_FOLDER + fileName);
-    textCategorization.classify(TextCategorization::TEST_FILES_FOLDER + "en_test_profile");
+    textCategorization.generateProfile(std::string(TextCategorization::TEST_SRC_DIR) + fileName, false);
+
+    // Strip extension for classification lookup logic
+    std::string baseName = fileName;
+    if (size_t lastDot = baseName.find_last_of('.'); lastDot != std::string::npos) {
+        baseName.erase(lastDot);
+    }
+
+    textCategorization.classify(baseName);
 }
 
 int main(const int argc, char** argv) {
     TextCategorization textCategorization;
 
-    if (argc < 1) {
+    if (argc < 2) {
         std::cerr << "Usage: " << argv[0] << " <mode: -g or -c>" << std::endl;
-        return 1;    
+        return 1;
     }
 
     std::string mode = argv[1];

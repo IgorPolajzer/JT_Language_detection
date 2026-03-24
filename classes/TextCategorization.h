@@ -1,16 +1,12 @@
-//
-// Created by igork on 22/03/2026.
-//
-
 #ifndef RV1_TEXTCATEGORIZATION_H
 #define RV1_TEXTCATEGORIZATION_H
 #include <regex>
 #include <string>
 #include <vector>
+#include <map>
 
 #include "Language.h"
 #include "Token.h"
-
 
 class TextCategorization {
     std::vector<Token> tokens;
@@ -21,9 +17,13 @@ class TextCategorization {
     void tokenize(const std::string& text);
     void hashFrequencies();
 public:
-    static constexpr std::string LANGUAGE_CORPUS_FOLDER = "corpora/";
-    static constexpr std::string TEST_FILES_FOLDER = "test_files/";
-    static constexpr std::string PROFILE_FOLDER = "profiles/";
+    // Root input folders
+    static constexpr const char* CORPORA_SRC_DIR = "data/corpora/";
+    static constexpr const char* TEST_SRC_DIR = "data/test_files/";
+
+    // Output profile folders.
+    static constexpr const char* CORPORA_PROFILE_DIR = "profiles/corpora/";
+    static constexpr const char* TEST_PROFILE_DIR = "profiles/test_files/";
 
     void generateProfile(const std::string& fileName, bool corporaProfile=false);
     void printNGrams() const;
@@ -34,6 +34,5 @@ public:
         return tokens;
     }
 };
-
 
 #endif //RV1_TEXTCATEGORIZATION_H

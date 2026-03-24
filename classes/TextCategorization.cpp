@@ -3,16 +3,16 @@
 //
 
 #include "TextCategorization.h"
-
 #include <fstream>
 #include <iostream>
-
+#include <sstream>
 #include "Util.h"
 
 std::string TextCategorization::readFileToString(const std::string& fileName) {
     std::ifstream file(fileName);
     if (!file.is_open()) {
         std::cerr << "Failed to open file: " << fileName << std::endl;
+        return "";
     }
 
     // Read file into a string representation.
@@ -27,7 +27,8 @@ std::vector<std::pair<std::string, size_t>> TextCategorization::readProfileToVec
     std::ifstream file(fileName);
 
     if (!file.is_open()) {
-        std::cerr << "Failed to open file: " << fileName << std::endl;
+        std::cerr << "Failed to open profile: " << fileName << std::endl;
+        return profile;
     }
 
     std::string line;
@@ -51,30 +52,26 @@ std::vector<std::pair<std::string, size_t>> TextCategorization::readProfileToVec
     }
 
     file.close();
-
     return profile;
 }
 
-void TextCategorization::generateProfile(const std::string& fileName, bool corporaProfile) {
-    // Generate the profile.
-    const std::string fileString = readFileToString(fileName);
+void TextCategorization::generateProfile(const std::string& filePath, bool corporaProfile) {
+    const std::string fileString = readFileToString(filePath);
     tokenize(fileString);
     for (auto& token : tokens) token.createNgrams();
     hashFrequencies();
 
     // Store the profile.
-    std::string outFileName = fileName;
-    const std::string suffix = ".txt";
-
-    if (const std::size_t suffixPos = outFileName.rfind(suffix); suffixPos != std::string::npos) {
-        outFileName.erase(suffixPos, suffix.size());
+    std::string baseName= filePath;
+    if (const std::size_t lastSlash = baseName.find_last_of("/\\"); lastSlash != std::string::npos) {
+        baseName.erase(0, lastSlash + 1);
     }
-    if (const std::size_t folderSlash = outFileName.rfind('/'); folderSlash != std::string::npos) {
-        outFileName.erase(0, folderSlash + 1);
+    if (const std::size_t lastDot = baseName.find_last_of('.'); lastDot != std::string::npos) {
+        baseName.erase(lastDot);
     }
 
-    std::string folderSuffix = corporaProfile == true ? LANGUAGE_CORPUS_FOLDER : TEST_FILES_FOLDER;
-    Util::writeSortedMapToFile(frequencies, PROFILE_FOLDER + folderSuffix + outFileName + "_profile.txt");
+    std::string targetDir = corporaProfile ? CORPORA_PROFILE_DIR : TEST_PROFILE_DIR;
+    Util::writeSortedMapToFile(frequencies, targetDir + baseName + "_profile.txt");
 }
 
 void TextCategorization::tokenize(const std::string& text) {
@@ -84,16 +81,15 @@ void TextCategorization::tokenize(const std::string& text) {
 
     tokens.clear();
     for (std::sregex_iterator i = wordsBegin; i != wordsEnd; ++i) {
-        // Pad token with spaces.
         tokens.emplace_back(" " + i->str() + " ");
     }
 }
 
 void TextCategorization::hashFrequencies() {
-    for (auto token : tokens) {
+    frequencies.clear();
+    for (auto& token : tokens) {
         for (const auto& nGram : token.getNgrams()) {
-            if (!frequencies.contains(nGram.second)) frequencies[nGram.second] = 1;
-            else frequencies[nGram.second]++;
+            frequencies[nGram.second]++;
         }
     }
 }
@@ -113,9 +109,9 @@ void TextCategorization::printFrequencies() const {
     }
 }
 
-Language TextCategorization::classify(const std::string& fileName) {
-    std::vector profile = readProfileToVector(PROFILE_FOLDER + fileName);
+Language TextCategorization::classify(const std::string& profileName) {
+    std::vector profile = readProfileToVector(TEST_PROFILE_DIR + profileName + "_profile.txt");
     std::vector<std::pair<Language, size_t>> distances;
 
-
+    return Language();
 }
