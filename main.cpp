@@ -14,13 +14,13 @@ void generateCorporaProfiles(TextCategorization& textCategorization) {
 void classify(TextCategorization& textCategorization, const std::string& fileName) {
     textCategorization.generateProfile(std::string(TextCategorization::TEST_SRC_DIR) + fileName, false);
 
-    // Strip extension for classification lookup logic
+    // Strip extension for classification lookup logic.
     std::string baseName = fileName;
     if (size_t lastDot = baseName.find_last_of('.'); lastDot != std::string::npos) {
         baseName.erase(lastDot);
     }
 
-    const Language::Value language = textCategorization.classify(baseName);
+    const Language::Value language = textCategorization.classify(baseName, true);
     std::cout << "The file: '" << fileName << "' was classified as " << Language::toString(language) << std::endl;
 }
 

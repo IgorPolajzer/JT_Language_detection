@@ -8,11 +8,14 @@
 #include <string>
 #include <utility>
 
+#include "Language.h"
+
 
 class Util {
 public:
     static bool cmp(std::pair<std::string, int>& a, std::pair<std::string, int>& b);
     static void writeSortedMapToFile(std::map<std::string, int> M, const std::string &fileName);
+    static bool cmpLanguageDistance(std::pair<Language::Value, size_t>& a,std::pair<Language::Value, size_t>& b);
 };
 
 

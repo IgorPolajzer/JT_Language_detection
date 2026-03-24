@@ -9,11 +9,15 @@
 #include <iostream>
 #include <vector>
 
+#include "Language.h"
+
 bool Util::cmp(std::pair<std::string, int>& a,
-         std::pair<std::string, int>& b)
+               std::pair<std::string, int>& b)
 {
     return a.second > b.second;
 }
+
+
 
 void Util::writeSortedMapToFile(std::map<std::string, int> M, const std::string& fileName)
 {
@@ -38,3 +42,10 @@ void Util::writeSortedMapToFile(std::map<std::string, int> M, const std::string&
         outFile << fst << ';' << snd << '\n';
     }
 }
+
+bool Util::cmpLanguageDistance(std::pair<Language::Value, size_t>& a,
+                                std::pair<Language::Value, size_t>& b)
+{
+    return a.second < b.second;
+}
+

@@ -29,7 +29,7 @@ public:
     void printNGrams() const;
     void printFrequencies() const;
 
-    static Language::Value classify(const std::string &fileName);
+    static Language::Value classify(const std::string &fileName, bool printScore=false);
 
     std::vector<Token> getTokens() {
         return tokens;

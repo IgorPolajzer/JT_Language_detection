@@ -3,6 +3,8 @@
 //
 
 #include "TextCategorization.h"
+
+#include <algorithm>
 #include <fstream>
 #include <iostream>
 #include <sstream>
@@ -118,7 +120,7 @@ void TextCategorization::printFrequencies() const {
     }
 }
 
-Language::Value TextCategorization::classify(const std::string &profileName) {
+Language::Value TextCategorization::classify(const std::string &profileName, bool printScore) {
     std::map<std::string, std::pair<size_t, size_t>> documentProfile = readProfileToVector(TEST_PROFILE_DIR + profileName + "_profile.txt");
     std::vector<std::pair<Language::Value, size_t>> distances;
 
@@ -154,6 +156,17 @@ Language::Value TextCategorization::classify(const std::string &profileName) {
             minDistance = distance.second;
             minDistanceLanguage = distance.first;
         }
+    }
+
+    if (printScore) {
+        std::vector<std::pair<Language::Value, size_t>> sortedDistances = distances;
+        std::ranges::sort(sortedDistances.begin(), sortedDistances.end(), Util::cmpLanguageDistance);
+
+        std::cout << "Scores by language:" << std::endl;
+        for (const auto& [language, distance] : sortedDistances) {
+            std::cout << "  " << Language::toString(language) << ": " << distance << std::endl;
+        }
+        std::cout << std::endl;
     }
 
     return minDistanceLanguage;
