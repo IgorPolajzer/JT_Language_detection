@@ -6,6 +6,7 @@
 #include <fstream>
 #include <iostream>
 #include <sstream>
+#include <filesystem>
 #include "Util.h"
 
 std::string TextCategorization::readFileToString(const std::string& fileName) {
@@ -22,8 +23,8 @@ std::string TextCategorization::readFileToString(const std::string& fileName) {
     return stringFile.substr(0, stringFile.find_last_not_of(" \t\n\r") + 1);
 }
 
-std::vector<std::pair<std::string, size_t>> TextCategorization::readProfileToVector(const std::string& fileName) {
-    std::vector<std::pair<std::string, size_t>> profile;
+std::map<std::string, std::pair<size_t, size_t>> TextCategorization::readProfileToVector(const std::string& fileName) {
+    std::map<std::string, std::pair<size_t, size_t>> profile;
     std::ifstream file(fileName);
 
     if (!file.is_open()) {
@@ -32,6 +33,13 @@ std::vector<std::pair<std::string, size_t>> TextCategorization::readProfileToVec
     }
 
     std::string line;
+    size_t index = 0;
+    std::string buff;
+    while (std::getline(file, buff)) ++index;
+
+    file.clear();
+    file.seekg(0, std::ios::beg);
+
     while (getline(file, line)) {
         try {
             static const std::regex profileEntryRegex("[A-Za-z' ]+;[0-9]+");
@@ -45,7 +53,8 @@ std::vector<std::pair<std::string, size_t>> TextCategorization::readProfileToVec
             const std::string token = line.substr(0, pos);
             const int frequency = std::stoi(line.substr(pos + 1));
 
-            profile.emplace_back(token, frequency);
+            profile[token] = std::pair(index, frequency);
+            index--;
         } catch (...) {
             std::cerr << "An exception occured while processing '" << line << "' in the language profile" << std::endl;
         }
@@ -109,9 +118,43 @@ void TextCategorization::printFrequencies() const {
     }
 }
 
-Language TextCategorization::classify(const std::string& profileName) {
-    std::vector profile = readProfileToVector(TEST_PROFILE_DIR + profileName + "_profile.txt");
-    std::vector<std::pair<Language, size_t>> distances;
+Language::Value TextCategorization::classify(const std::string &profileName) {
+    std::map<std::string, std::pair<size_t, size_t>> documentProfile = readProfileToVector(TEST_PROFILE_DIR + profileName + "_profile.txt");
+    std::vector<std::pair<Language::Value, size_t>> distances;
 
-    return Language();
+    try {
+        if (std::filesystem::exists(CORPORA_PROFILE_DIR) && std::filesystem::is_directory(CORPORA_PROFILE_DIR)) {
+            // Compare to all corpora profiles on the system.
+            for (const auto& corporaProfile : std::filesystem::directory_iterator(CORPORA_PROFILE_DIR)) {
+                if (corporaProfile.is_regular_file()) {
+                    size_t totalDistance = 0;
+                    std::map<std::string, std::pair<size_t, size_t>> categoryProfile = readProfileToVector(corporaProfile.path().string());
+                    const size_t outOfPlace = categoryProfile.size();
+
+                    // Measure distances between category and document profile.
+                    for (const auto& profileEntry : documentProfile) {
+                        std::string nGram = profileEntry.first;
+                        size_t distance = categoryProfile.contains(nGram)
+                            ? std::abs(static_cast<long long>(documentProfile.at(nGram).second) - static_cast<long long>(categoryProfile[nGram].second)) : outOfPlace;
+                        totalDistance += distance;
+                    }
+
+                    distances.emplace_back(Language::fromProfile(corporaProfile.path().filename().string()), totalDistance);
+                }
+            }
+        }
+    } catch (const std::filesystem::filesystem_error& e) {
+        std::cerr << "Error accessing profiles: " << e.what() << std::endl;
+    }
+
+    int minDistance = INT_MAX;
+    Language::Value minDistanceLanguage = Language::UNKNOWN;
+    for (const auto& distance : distances) {
+        if (distance.second < minDistance) {
+            minDistance = distance.second;
+            minDistanceLanguage = distance.first;
+        }
+    }
+
+    return minDistanceLanguage;
 }

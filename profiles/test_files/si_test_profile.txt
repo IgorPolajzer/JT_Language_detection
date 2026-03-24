@@ -1,0 +1,3507 @@
+ ;872
+a;510
+e;440
+i;409
+o;367
+n;306
+r;254
+l;254
+s;227
+t;222
+v;213
+j;194
+k;142
+u;131
+d;127
+p;120
+e ;108
+m;95
+b;91
+z;87
+an;84
+ra;76
+la;76
+je;69
+g;67
+a ;67
+st;64
+ni;62
+na;59
+ov;56
+i ;55
+ j;52
+li;51
+ v;50
+ti;49
+ je;45
+ je ;45
+in;45
+je ;45
+v ;44
+el;43
+gl;43
+ol;43
+ v ;43
+ne;42
+te;42
+se;42
+lo;41
+ n;41
+as;40
+c;40
+h;39
+pr;38
+las;37
+o ;37
+re;37
+gla;36
+so;36
+en;35
+ i;35
+glas;34
+at;33
+ s;33
+ka;33
+aj;33
+za;33
+ve;33
+ed;33
+S;32
+po;32
+laso;29
+ar;29
+av;29
+aso;29
+al;29
+asov;29
+lasov;29
+sov;29
+vi;29
+it;28
+ki;28
+glaso;28
+or;28
+to;27
+ta;26
+ko;26
+il;26
+ja;26
+vo;25
+nj;25
+ran;25
+n ;25
+tr;25
+ k;24
+ri;24
+ob;23
+na ;23
+os;23
+oli;23
+em;23
+L;22
+le;22
+ a;22
+bo;22
+me;22
+di;22
+ z;22
+bi;21
+ in;21
+ih;21
+od;21
+P;21
+nk;21
+ma;21
+zb;21
+er;21
+ot;20
+ na ;20
+ na;20
+pa;20
+va;20
+elo;20
+ju;20
+sp;20
+ic;20
+pe;20
+ir;20
+ p;19
+us;19
+D;18
+ej;18
+lj;18
+za ;18
+ za;18
+ e;18
+ za ;18
+str;18
+ji;18
+pre;18
+se ;18
+ank;17
+br;17
+ad;17
+bra;17
+ in ;17
+ovi;17
+in ;17
+usp;16
+anj;16
+Z;16
+uspe;16
+sti;16
+spe;16
+da;16
+no;16
+rat;16
+do;16
+r ;16
+ se;15
+zbra;15
+A;15
+pel;15
+es;15
+ se ;15
+ke;15
+am;15
+ro;15
+ek;15
+zbr;15
+naj;15
+uspel;15
+tra;15
+bil;15
+rank;15
+K;15
+G;15
+is;15
+spel;15
+M;15
+tran;15
+R;15
+trank;15
+N;15
+ite;15
+V;14
+pelo;14
+mi;14
+J;14
+rj;14
+ati;14
+spelo;14
+ds;14
+ist;14
+iz;14
+jo;14
+sk;14
+ik;14
+stran;14
+stra;14
+ev;13
+ki ;13
+B;13
+vol;13
+ni ;13
+ca;13
+ ki ;13
+ ki;13
+T;12
+ce;12
+sta;12
+im;12
+tu;12
+voli;12
+rt;12
+ne ;12
+ica;12
+dr;11
+ira;11
+u ;11
+de;11
+nd;11
+et;11
+jv;11
+ m;11
+O;11
+ajv;11
+ok;11
+nje;11
+ ni;11
+ ni ;11
+dn;11
+S ;10
+ral;10
+ajve;10
+ t;10
+lit;10
+ak;10
+ S;10
+posl;10
+pos;10
+sed;10
+posla;10
+lis;10
+ d;10
+ e ;10
+najv;10
+rati;10
+ a ;10
+ i ;10
+ku;10
+pred;10
+osl;10
+osla;10
+red;10
+jve;10
+Ja;10
+ ne;10
+d ;10
+ o;10
+sl;10
+sla;10
+olit;10
+ga;9
+Pr;9
+ine;9
+brat;9
+and;9
+dni;9
+zbrat;9
+asovi;9
+ b;9
+list;9
+brati;9
+sovi;9
+najve;9
+be;9
+iti;9
+eb;9
+nik;9
+tev;9
+lan;8
+slan;8
+avn;8
+ato;8
+ber;8
+ora;8
+olo;8
+kr;8
+vn;8
+isti;8
+preds;8
+ali;8
+ah;8
+pri;8
+men;8
+oj;8
+pro;8
+sto;8
+Og;8
+Ogl;8
+nke;8
+vse;8
+ove;8
+dse;8
+Go;8
+dsed;8
+ po;8
+up;8
+vs;8
+Jan;8
+F;8
+edsed;8
+edse;8
+redse;8
+reds;8
+ost;8
+eds;8
+ur;8
+oslan;8
+Golo;7
+ert;7
+Gol;7
+nov;7
+ab;7
+est;7
+dsedn;7
+U;7
+tn;7
+edn;7
+edni;7
+bol;7
+sedn;7
+bor;7
+bert;7
+bral;7
+E;7
+ve ;7
+ave;7
+uk;7
+ranke;7
+Golob;7
+sedni;7
+eg;7
+anke;7
+Lo;7
+I;7
+rn;7
+rl;7
+sn;7
+obe;7
+listi;7
+j ;7
+nsk;7
+l ;7
+mo;7
+po ;7
+lob;7
+id;7
+nic;7
+ns;7
+og;7
+ini;7
+ u;7
+ po ;7
+osta;7
+ ji;7
+kra;7
+z ;7
+ ko;7
+vr;7
+olob;7
+go;7
+nej;7
+ u ;6
+ ne ;6
+oga;6
+dst;6
+odst;6
+uj;6
+ros;6
+par;6
+vrs;6
+itev;6
+arl;6
+ebi;6
+did;6
+om;6
+tk;6
+ods;6
+Ogla;6
+Oglas;6
+ dr ;6
+s ;6
+avi;6
+ pa;6
+ pa ;6
+dnik;6
+ dr;6
+ji ;6
+uka;6
+pa ;6
+rja;6
+nc;6
+ndi;6
+dr ;6
+avni;6
+ bi;6
+ndid;6
+nica;6
+vrst;6
+jan;6
+eno;6
+mo ;6
+te ;6
+Rober;6
+Robe;6
+van;6
+Rob;6
+Ro;6
+an ;6
+tv;6
+vni;6
+rs;6
+Loga;6
+rst;6
+sv;6
+ame;6
+Me;6
+Bo;6
+Pre;6
+tri;6
+ SD;6
+gar;6
+ole;6
+andi;6
+Log;6
+ednik;6
+Logar;6
+ober;6
+anje;6
+ogar;6
+irj;6
+ mo ;6
+ mo;6
+imi;6
+obert;6
+SD;6
+ejo;6
+nt;6
+ane;6
+andid;6
+zbo;6
+zbor;6
+un;5
+ J;5
+bil ;5
+lam;5
+Ve;5
+lamen;5
+lame;5
+to ;5
+bl;5
+on;5
+ment;5
+mu;5
+ska;5
+ln;5
+oji;5
+zbral;5
+mir;5
+ament;5
+amen;5
+ N;5
+ U;5
+med;5
+m ;5
+man;5
+ SDS;5
+ajo;5
+ SDS ;5
+ave ;5
+adi;5
+ap;5
+oti;5
+arla;5
+arlam;5
+lja;5
+odsto;5
+ av;5
+ ave;5
+Na;5
+ ave ;5
+ bil;5
+ bil ;5
+stot;5
+tot;5
+ed ;5
+ila;5
+SDS;5
+SDS ;5
+ina;5
+parla;5
+parl;5
+uvrst;5
+uvrs;5
+uvr;5
+uv;5
+il ;5
+pan;5
+ec;5
+ut;5
+ri ;5
+ to ;5
+ to;5
+dstot;5
+dsto;5
+ric;5
+por;5
+ez;5
+prost;5
+DS;5
+DS ;5
+pros;5
+esn;5
+raj;5
+pri ;5
+ha;5
+ranj;5
+ te;5
+ent;5
+nki;5
+Po;5
+eni;5
+tel;5
+voj;5
+eli;5
+tj;5
+voji;5
+ci;5
+rju;5
+H;5
+rla;5
+rlam;5
+rlame;5
+jih;5
+del;5
+ova;5
+ote;5
+ s ;5
+rost;5
+svoji;5
+kan;5
+svoj;5
+rsti;5
+kand;5
+kandi;5
+svo;5
+ ji ;5
+ D;5
+vrsti;5
+nja;5
+jem;5
+ pri ;5
+ pr;5
+ pri;5
+nat;4
+nej ;4
+Slove;4
+Slov;4
+evi;4
+abi;4
+Slo;4
+Sl;4
+ag;4
+obo;4
+Vo;4
+Vol;4
+not;4
+Voli;4
+St;4
+Re;4
+nce;4
+Z ;4
+tem;4
+tar;4
+tek;4
+novi;4
+ta ;4
+od ;4
+ac;4
+tat;4
+stit;4
+nju;4
+nu;4
+rm;4
+io;4
+ede;4
+itv;4
+itve;4
+du;4
+jej;4
+jejo;4
+rica;4
+rih;4
+do ;4
+eh;4
+jen;4
+oven;4
+rni;4
+dat;4
+js;4
+rosta;4
+jub;4
+jubl;4
+jublj;4
+bt;4
+raz;4
+rad;4
+h ;4
+pora;4
+enot;4
+enj;4
+ice;4
+idi;4
+iha;4
+pol;4
+rav;4
+rstit;4
+ema;4
+rb;4
+ij;4
+rbt;4
+iko;4
+reb;4
+ili;4
+iln;4
+ej ;4
+ilo;4
+olitv;4
+liti;4
+litv;4
+litve;4
+arj;4
+ansk;4
+ans;4
+ljan;4
+anju;4
+olj;4
+ani;4
+ata;4
+oliti;4
+anc;4
+lni;4
+lov;4
+slans;4
+love;4
+loven;4
+oliln;4
+olil;4
+okra;4
+lad;4
+rto;4
+ko ;4
+krat;4
+bljan;4
+blja;4
+blj;4
+bite;4
+bit;4
+bilo;4
+bili;4
+okr;4
+lans;4
+az;4
+lansk;4
+sa;4
+ava;4
+le ;4
+op;4
+lil;4
+liln;4
+ublj;4
+Jan ;4
+ K;4
+ od ;4
+Lj;4
+ od;4
+ul;4
+Bol;4
+Ljub;4
+tit;4
+volit;4
+zu;4
+Ljubl;4
+ud;4
+ublja;4
+Lju;4
+ze;4
+Bole;4
+ Ja;4
+ven;4
+tve;4
+ubl;4
+ Jan;4
+ub;4
+ nej;4
+Ma;4
+zi;4
+ Jan ;4
+ nej ;4
+ te ;4
+Bi;4
+Ka;4
+vic;4
+tni;4
+ ko ;4
+upa;4
+Je;4
+uje;4
+ M;4
+vob;4
+tov;4
+ z ;4
+ujej;4
+ujejo;4
+udi;4
+vobo;4
+imir;3
+aj ;3
+so ;3
+diral;3
+dira;3
+ahko;3
+aja;3
+imirj;3
+aku;3
+dir;3
+ajbol;3
+ink;3
+liz;3
+ajb;3
+ako;3
+ajbo;3
+De;3
+net;3
+litik;3
+medt;3
+ladi;3
+min;3
+nato;3
+nez;3
+mirj;3
+rma;3
+ero;3
+erod;3
+Dr;3
+iri;3
+ade;3
+ vse ;3
+dov;3
+ensk;3
+ens;3
+ vse;3
+ vs;3
+enoti;3
+NS;3
+upan;3
+ al;3
+panje;3
+istr;3
+sta ;3
+stal;3
+istri;3
+hko;3
+hk;3
+rje;3
+Kranj;3
+Kran;3
+Kra;3
+Kr;3
+ranju;3
+evic;3
+tric;3
+ilni;3
+entar;3
+ahk;3
+manj;3
+iral;3
+iran;3
+enta;3
+atov;3
+ranki;3
+nam;3
+adimi;3
+adim;3
+anko;3
+idati;3
+DZ ;3
+idir;3
+idira;3
+anu;3
+anske;3
+cu;3
+ Kd;3
+ihaj;3
+ihaja;3
+idat;3
+anki;3
+ Kdo;3
+menta;3
+si;3
+lanc;3
+ en;3
+Le;3
+odo;3
+Lu;3
+nda;3
+arn;3
+ bo;3
+ib;3
+sek;3
+Levi;3
+Levic;3
+lav;3
+dan;3
+arja;3
+Luk;3
+mest;3
+ar ;3
+rod;3
+DZ;3
+mes;3
+dati;3
+sem;3
+Lev;3
+ida;3
+alo;3
+slanc;3
+dimi;3
+tudi;3
+Med;3
+am ;3
+Med ;3
+lah;3
+panj;3
+dimir;3
+Ale;3
+lahk;3
+ima;3
+tud;3
+aliz;3
+Al;3
+sne;3
+ese;3
+sni;3
+vens;3
+ladim;3
+dida;3
+Luka;3
+ske;3
+anez;3
+esni;3
+ski;3
+ndida;3
+ndidi;3
+ Kdo ;3
+mej;3
+medte;3
+didat;3
+didi;3
+didir;3
+An;3
+lak;3
+lahko;3
+vensk;3
+dim;3
+poh;3
+ Med;3
+ ob;3
+jsk;3
+rero;3
+otk;3
+ntarn;3
+rer;3
+ntar;3
+njem;3
+tarn;3
+nta;3
+Kdo;3
+kot;3
+Kd;3
+ mu ;3
+ot ;3
+ mu;3
+ Med ;3
+Fo;3
+vaku;3
+lic;3
+vsem;3
+edt;3
+vil;3
+ T;3
+Tu;3
+t ;3
+ Na;3
+ DZ ;3
+lu;3
+Jel;3
+ Me;3
+ret;3
+kraj;3
+tato;3
+tal;3
+elj;3
+ DZ;3
+Kdo ;3
+tan;3
+re ;3
+ ob ;3
+kov;3
+kot ;3
+rerod;3
+kl;3
+vak;3
+ ka;3
+ iz ;3
+tir;3
+mu ;3
+noti;3
+ A;3
+tik;3
+kih;3
+vl;3
+gle;3
+vad;3
+Prero;3
+Prer;3
+Prebi;3
+Preb;3
+C;3
+bo ;3
+til;3
+tila;3
+bod;3
+ l;3
+nske;3
+nska;3
+edte;3
+edtem;3
+titi;3
+nka;3
+kaj;3
+bolj;3
+zap;3
+ U ;3
+um;3
+ kot ;3
+rebi;3
+rebil;3
+kar;3
+ega;3
+nko;3
+ostal;3
+ kot;3
+ iz;3
+ter;3
+ori;3
+ljani;3
+dt;3
+stric;3
+dte;3
+dtem;3
+nih;3
+iz ;3
+ so ;3
+ st;3
+Za;3
+ so;3
+oh;3
+zir;3
+mal;3
+lje;3
+su;3
+duj;3
+ezu;3
+ E;3
+iza;3
+totk;3
+Ko;3
+stiti;3
+stn;3
+stni;3
+haja;3
+okraj;3
+ob ;3
+iv;3
+izi;3
+stila;3
+pad;3
+stotk;3
+haj;3
+mag;3
+stri;3
+stil;3
+ bo ;3
+ sta;3
+jbol;3
+jbolj;3
+ravi;3
+Jane;3
+Janez;3
+nit;3
+lilni;3
+Na ;3
+jbo;3
+ da;3
+ebil;3
+avad;3
+ebili;3
+ Na ;3
+U ;3
+vse ;3
+ovens;3
+b ;3
+Vlad;3
+jani;3
+ sta ;3
+riha;3
+najbo;3
+Vladi;3
+Ves;3
+Vla;3
+Vl;3
+najb;3
+rihaj;3
+jb;3
+Vesn;3
+itik;3
+etn;2
+etna;2
+vih;2
+evice;2
+lizi;2
+gine;2
+ginej;2
+psu;2
+pus;2
+prot;2
+proti;2
+ps;2
+lik;2
+oo;2
+lica;2
+f;2
+psula;2
+pu;2
+psul;2
+ezult;2
+ezul;2
+gin;2
+vice;2
+etu;2
+eva;2
+evan;2
+pust;2
+garj;2
+evano;2
+lin;2
+pusti;2
+garja;2
+gi;2
+omag;2
+rbtu;2
+rbten;2
+rbte;2
+zara;2
+oma;2
+vam;2
+vam ;2
+vanj;2
+razen;2
+raze;2
+eme;2
+emen;2
+rd;2
+ravil;2
+ljenj;2
+ljen;2
+emu;2
+vano;2
+ratov;2
+rato;2
+enc;2
+ence;2
+vanov;2
+ene;2
+ene ;2
+eksan;2
+zacij;2
+eja;2
+olite;2
+ejt;2
+ejte;2
+vade;2
+ek ;2
+zav;2
+ekr;2
+zarad;2
+eks;2
+eksa;2
+omagn;2
+eku;2
+ekun;2
+ekund;2
+Ena ;2
+ela;2
+ele;2
+ele ;2
+Ena;2
+elin;2
+En;2
+rdi;2
+esnic;2
+ alo;2
+ alo ;2
+litev;2
+lite;2
+rajo;2
+rajih;2
+raji;2
+esec;2
+oniz;2
+zapes;2
+oniza;2
+zape;2
+oni;2
+Da;2
+esta;2
+estan;2
+estn;2
+estni;2
+radi;2
+estu;2
+eta;2
+rabit;2
+rabi;2
+etj;2
+enska;2
+enic;2
+enica;2
+enij;2
+enijo;2
+vec;2
+ aj;2
+vel;2
+enja;2
+enje;2
+ aj ;2
+Dr ;2
+zar;2
+rab;2
+lizir;2
+vem;2
+ranka;2
+ep;2
+epr;2
+epro;2
+epros;2
+Deli;2
+ranje;2
+Del;2
+vabil;2
+izl;2
+itiko;2
+padav;2
+pada;2
+ivl;2
+ivlj;2
+ivlje;2
+izac;2
+izaci;2
+izg;2
+izgi;2
+izgin;2
+ sr ;2
+izir;2
+izira;2
+ ine;2
+izle;2
+izlet;2
+ sr;2
+ sne ;2
+ sne;2
+jaj;2
+jajo;2
+ sn;2
+jav;2
+ksand;2
+ksan;2
+ksa;2
+jd;2
+jdo;2
+irja;2
+ioma;2
+iomag;2
+ion;2
+ioni;2
+ioniz;2
+ip;2
+ord;2
+ordi;2
+iraj;2
+irajo;2
+kup;2
+iranj;2
+pede;2
+ped;2
+jdov;2
+irje;2
+irju;2
+ ve ;2
+iste;2
+ ve;2
+ vam ;2
+ vam;2
+ va;2
+kunda;2
+itek;2
+itel;2
+kund;2
+kun;2
+kaps;2
+jte;2
+ med ;2
+ med;2
+ me;2
+ormal;2
+koduj;2
+k ;2
+ le ;2
+kodu;2
+kam;2
+kod;2
+ostat;2
+ le;2
+kap;2
+jt;2
+kapsu;2
+kar ;2
+ kar ;2
+oslal;2
+ kar;2
+zac;2
+zaci;2
+kir;2
+kira;2
+kiraj;2
+ort;2
+orto;2
+ortop;2
+ose;2
+kraji;2
+ si ;2
+ si;2
+ks;2
+ re ;2
+ re;2
+orj;2
+ r;2
+ ote ;2
+ ote;2
+jenj;2
+jenje;2
+ ot;2
+ ine ;2
+ovem;2
+iom;2
+jim;2
+ovanj;2
+ovan;2
+ ini;2
+ ini ;2
+orm;2
+oto;2
+orma;2
+otkih;2
+otki;2
+jska;2
+otek;2
+ote ;2
+vlje;2
+hi;2
+hit;2
+hite;2
+hitel;2
+lek;2
+lejte;2
+lejt;2
+lej;2
+hr;2
+hrb;2
+hrbt;2
+hrbtu;2
+ dan ;2
+zaost;2
+hajaj;2
+hu;2
+hur;2
+oped;2
+opede;2
+vljen;2
+lavob;2
+lavo;2
+Bistr;2
+pra;2
+Bist;2
+Bis;2
+Bioma;2
+Biom;2
+poraz;2
+gor;2
+vine;2
+glav;2
+glavo;2
+glej;2
+glejt;2
+let;2
+gn;2
+gne;2
+gnet;2
+gnetn;2
+ dan;2
+ope;2
+len;2
+lemen;2
+porab;2
+leme;2
+lem;2
+prepr;2
+gov;2
+prep;2
+leksa;2
+gr;2
+gre;2
+gren;2
+greni;2
+leks;2
+vlj;2
+Br;2
+inejo;2
+ilica;2
+Aleks;2
+Alek;2
+orab;2
+Ajdov;2
+orabi;2
+Ajdo;2
+Ajd;2
+Aj;2
+volil;2
+inam;2
+zado;2
+ine ;2
+inej;2
+ilic;2
+zad;2
+oran;2
+pi;2
+pestn;2
+pest;2
+ini ;2
+inir;2
+inira;2
+inis;2
+inist;2
+pes;2
+AR;2
+inki;2
+oraz;2
+ ele ;2
+Bio;2
+zaos;2
+ ek;2
+ ek ;2
+ el;2
+ ele;2
+ici;2
+polit;2
+poli;2
+vobod;2
+ih ;2
+vobol;2
+vod;2
+lance;2
+vin;2
+zao;2
+ijo;2
+ijs;2
+ijsk;2
+ijska;2
+ ene;2
+ika;2
+ ene ;2
+iki;2
+lal;2
+pohit;2
+ikov;2
+pohi;2
+obod;2
+agne;2
+agnet;2
+span;2
+spa;2
+trica;2
+trip;2
+ah ;2
+ngl;2
+ng;2
+ajaj;2
+ajajo;2
+aji;2
+ajih;2
+obi;2
+obil;2
+agn;2
+obol;2
+Mi;2
+netna;2
+Mesec;2
+netn;2
+nek;2
+nejo;2
+Mese;2
+ala;2
+Mes;2
+snica;2
+snic;2
+sne ;2
+zlet;2
+acij;2
+totki;2
+ Ena ;2
+abil;2
+abilo;2
+abit;2
+abite;2
+stan;2
+NSi ;2
+ace;2
+NSi;2
+sr ;2
+sr;2
+spust;2
+aci;2
+alizi;2
+acijs;2
+ada;2
+adav;2
+adavi;2
+spus;2
+adl;2
+spu;2
+tre;2
+tret;2
+adn;2
+adni;2
+tretj;2
+ado;2
+spanj;2
+arka;2
+aost;2
+aosta;2
+ape;2
+apes;2
+apest;2
+ses;2
+aps;2
+apsu;2
+apsul;2
+ndah;2
+ara;2
+arad;2
+aradi;2
+sekun;2
+ark;2
+aos;2
+seku;2
+arni;2
+ncem;2
+seg;2
+navad;2
+nava;2
+nav;2
+LS ;2
+ast;2
+LS;2
+ate;2
+odu;2
+sec;2
+oduj;2
+sku;2
+alj;2
+alo ;2
+neh;2
+oboli;2
+zle;2
+slal;2
+Mat;2
+nebit;2
+nebi;2
+neb;2
+ana;2
+skup;2
+ance;2
+ancem;2
+stane;2
+oda;2
+zl;2
+anek;2
+anja;2
+anjem;2
+si ;2
+anka;2
+ankam;2
+ano;2
+anov;2
+anovi;2
+sesta;2
+sest;2
+ao;2
+tanek;2
+SLS;2
+SLS ;2
+nji;2
+tarni;2
+Si;2
+Si ;2
+PO;2
+tka;2
+tke;2
+tki;2
+tkih;2
+Oglej;2
+Ste;2
+Stev;2
+Steva;2
+SL;2
+tane;2
+Sv;2
+Svo;2
+Svob;2
+Svobo;2
+Ogle;2
+nizac;2
+niza;2
+niz;2
+Te;2
+Te ;2
+Ti;2
+Tin;2
+Tine;2
+tenic;2
+Polit;2
+Poli;2
+Pol;2
+Pri;2
+Prih;2
+Priha;2
+tikov;2
+tiko;2
+nova;2
+tevan;2
+teva;2
+norma;2
+norm;2
+nor;2
+tak;2
+teni;2
+ten;2
+tirj;2
+telo;2
+zulta;2
+Res;2
+Resn;2
+Resni;2
+tirje;2
+zult;2
+zul;2
+ B;2
+nkam;2
+tja;2
+ En;2
+nimi;2
+stv;2
+stu;2
+nim;2
+tor;2
+ Dr;2
+ Dr ;2
+niki;2
+Ne;2
+stote;2
+tote;2
+Zb;2
+totek;2
+stnic;2
+nir;2
+nijo;2
+nij;2
+ Ena;2
+Zn;2
+Zne;2
+Zneb;2
+Znebi;2
+Zo;2
+Zor;2
+Zora;2
+Zoran;2
+ste;2
+stato;2
+stat;2
+nite;2
+Tl;2
+Tla;2
+Tlak;2
+tna;2
+tnic;2
+tnica;2
+Tuk;2
+Tuka;2
+Tukaj;2
+Up;2
+Upo;2
+Upor;2
+Upora;2
+Ur;2
+ehur;2
+top;2
+nist;2
+Nov;2
+nis;2
+niran;2
+nira;2
+sula;2
+No;2
+tope;2
+toped;2
+Volil;2
+Volit;2
+Vr;2
+sul;2
+okir;2
+Irgl;2
+dav;2
+davi;2
+davin;2
+Irg;2
+Ir;2
+delj;2
+zgine;2
+zgin;2
+oki;2
+zdrav;2
+oku;2
+zgi;2
+dan ;2
+okira;2
+oduje;2
+meja;2
+mehur;2
+mehu;2
+din;2
+rne;2
+meh;2
+med ;2
+dl;2
+zg;2
+rmali;2
+mestu;2
+mirja;2
+roti;2
+rot;2
+cel;2
+utri;2
+celo;2
+cem;2
+utr;2
+zdra;2
+cer;2
+minis;2
+mini;2
+retj;2
+rmal;2
+cij;2
+cijs;2
+cijsk;2
+Ivan;2
+Iva;2
+ebo;2
+Iv;2
+ebite;2
+ebit;2
+dah;2
+dal;2
+dalj;2
+magn;2
+ust;2
+ura;2
+dujej;2
+urad;2
+duje;2
+zel;2
+rip;2
+rinir;2
+maliz;2
+mali;2
+dra;2
+ SLS ;2
+drav;2
+dose;2
+dravi;2
+rini;2
+magne;2
+Gl;2
+rin;2
+uri;2
+ SL;2
+urin;2
+Gla;2
+urini;2
+ SLS;2
+Glas;2
+Ha;2
+zen;2
+Hrbte;2
+Hrbt;2
+Hrb;2
+Hr;2
+dne;2
+utke;2
+dneh;2
+Hanu;2
+Han;2
+rka;2
+rk;2
+miri;2
+rg;2
+dniki;2
+rgl;2
+oko;2
+utk;2
+ustil;2
+dob;2
+dobi;2
+dobil;2
+mar;2
+dos;2
+usti;2
+rep;2
+ren;2
+bilic;2
+ego;2
+vab;2
+reni;2
+renij;2
+ Te ;2
+ Te;2
+ohit;2
+umi;2
+bila;2
+ru;2
+lo ;2
+zd;2
+Kar;2
+umir;2
+umiri;2
+una;2
+Kan;2
+ NS;2
+rtope;2
+ulta;2
+avine;2
+avin;2
+ula;2
+rvaku;2
+ult;2
+avo;2
+avob;2
+avil;2
+avobo;2
+ Ur;2
+zdr;2
+aze;2
+azen;2
+ultat;2
+rvak;2
+rva;2
+rv;2
+rem;2
+ohite;2
+Kl;2
+bte;2
+ohi;2
+ogarj;2
+unda;2
+undah;2
+Fot;2
+vabi;2
+repro;2
+lt;2
+lta;2
+zira;2
+und;2
+bten;2
+edelj;2
+edel;2
+bteni;2
+Foto;2
+ehu;2
+Fa;2
+btu;2
+ltat;2
+rtop;2
+repr;2
+avade;2
+utrip;2
+boli;2
+ukaj;2
+sand;2
+bole;2
+ NSi;2
+ V;2
+Jelin;2
+ NSi ;2
+bodo;2
+Jeli;2
+san;2
+zavn;1
+olik;1
+zunaj;1
+zavih;1
+novic;1
+orjem;1
+zavni;1
+zbora;1
+zbran;1
+orju;1
+ol ;1
+olutn;1
+okl;1
+olut;1
+zpad;1
+orn;1
+orni;1
+ornik;1
+zpa;1
+oro;1
+orov;1
+orovi;1
+nski;1
+zuna;1
+nskeg;1
+zpade;1
+oliko;1
+okus;1
+novim;1
+okrat;1
+zp;1
+olu;1
+zun;1
+olis;1
+olisc;1
+zavi;1
+ocia;1
+oord;1
+oor;1
+ooku;1
+odor;1
+odja;1
+zjava;1
+odj;1
+zidi;1
+zamej;1
+ocial;1
+oordi;1
+oci;1
+oc;1
+ook;1
+oje;1
+ojen;1
+ojenc;1
+zn;1
+onzor;1
+ojih;1
+ojit;1
+odp;1
+zirju;1
+zirj;1
+zj;1
+odstv;1
+zja;1
+ogo;1
+ogov;1
+ogovi;1
+odpor;1
+odpo;1
+onzo;1
+zjav;1
+opi;1
+opr;1
+opre;1
+odoro;1
+ohv;1
+ohva;1
+ohval;1
+zidih;1
+opred;1
+okoje;1
+zori;1
+zorir;1
+zapr;1
+ore;1
+zaprt;1
+oklu;1
+okluk;1
+nzori;1
+okoj;1
+oric;1
+zor;1
+orica;1
+okoo;1
+zelo;1
+okoor;1
+nzor;1
+nzo;1
+nz;1
+orir;1
+orira;1
+nu ;1
+onu ;1
+ojiti;1
+zame;1
+zam;1
+onz;1
+obodo;1
+oboda;1
+zni;1
+obili;1
+obila;1
+ojz;1
+orje;1
+znik;1
+zo;1
+zid;1
+ojzn;1
+ordin;1
+obema;1
+ojzni;1
+onu;1
+obem;1
+saj;1
+sedm;1
+sedan;1
+seda;1
+ujo;1
+sebin;1
+sebi;1
+seb;1
+sc;1
+sar;1
+sandr;1
+sande;1
+saj ;1
+sedmi;1
+uju;1
+ukar;1
+ukt;1
+uktu;1
+uktur;1
+rzavn;1
+rzav;1
+rza;1
+rz;1
+ruktu;1
+rukt;1
+ruk;1
+uh;1
+sklic;1
+skli;1
+skl;1
+skih;1
+skega;1
+skeg;1
+sicer;1
+sice;1
+sic;1
+semi;1
+ug;1
+ugo;1
+rugo;1
+sekre;1
+sekr;1
+sego;1
+segel;1
+sege;1
+seeno;1
+seen;1
+see;1
+uha;1
+seduj;1
+sedu;1
+rnih;1
+rora;1
+ror;1
+rom;1
+roda;1
+ro ;1
+upine;1
+rnite;1
+rnit;1
+rnimi;1
+rnim;1
+rnike;1
+rnik;1
+upin;1
+upl;1
+uplj;1
+uplje;1
+rnej;1
+rna;1
+upn;1
+rmen;1
+rme;1
+rman;1
+upni;1
+upo;1
+ung;1
+rug;1
+uma;1
+umar;1
+rtove;1
+rtov;1
+una ;1
+unaj;1
+rtom;1
+unajp;1
+rtju;1
+rtj;1
+rti;1
+tvu;1
+rstil;1
+ungl;1
+unglo;1
+rovi;1
+rov;1
+rosup;1
+rosu;1
+rosto;1
+upanj;1
+upar;1
+upi;1
+tnik;1
+tju;1
+tarne;1
+tarka;1
+tark;1
+tanko;1
+tank;1
+talim;1
+tali;1
+tala;1
+tako;1
+taki;1
+tab;1
+tati;1
+tniko;1
+tno;1
+svetu;1
+tom;1
+svet;1
+sve;1
+suplj;1
+supl;1
+sup;1
+stvu;1
+stvo;1
+struk;1
+tis;1
+tim;1
+tika;1
+timi;1
+tevil;1
+tevi;1
+tiri;1
+terem;1
+tere;1
+ter ;1
+temu;1
+tirih;1
+tela;1
+stru;1
+teju;1
+tist;1
+tisti;1
+tite;1
+tej;1
+titev;1
+tatov;1
+tjan;1
+tje;1
+tjem;1
+tji;1
+smin;1
+solut;1
+solu;1
+sol;1
+sokoo;1
+truk;1
+soko;1
+sok;1
+socia;1
+soci;1
+soc;1
+trukt;1
+sna;1
+sop;1
+smi;1
+sm;1
+slane;1
+tuj;1
+tuju;1
+tur;1
+turn;1
+skupn;1
+skupi;1
+turna;1
+tvo;1
+stala;1
+tori;1
+torj;1
+torje;1
+stori;1
+stor;1
+stite;1
+stimi;1
+stim;1
+totka;1
+ster;1
+tove;1
+stali;1
+rjema;1
+tovec;1
+tovi;1
+spela;1
+trici;1
+sovan;1
+sova;1
+trt;1
+trti;1
+sopre;1
+sopr;1
+tru;1
+vods;1
+ponz;1
+pon;1
+vnega;1
+polo;1
+pol ;1
+pokoj;1
+poko;1
+pok;1
+pohva;1
+vodj;1
+vodja;1
+pohv;1
+vneg;1
+vodst;1
+vojih;1
+vojit;1
+podpo;1
+podp;1
+pod;1
+pni;1
+pn;1
+plje;1
+plj;1
+pl;1
+volis;1
+prekr;1
+pric;1
+pribl;1
+vla;1
+prib;1
+vlad;1
+vladn;1
+prese;1
+pres;1
+preos;1
+preo;1
+prema;1
+prem;1
+pine;1
+prek;1
+preje;1
+prej;1
+prebo;1
+preb;1
+prav;1
+vna;1
+porni;1
+porn;1
+ponzo;1
+vne;1
+osv;1
+vsee;1
+ovaku;1
+ovak;1
+otri;1
+otr;1
+otnik;1
+otni;1
+otn;1
+otka;1
+osvoj;1
+vseen;1
+osvo;1
+ovec;1
+osupl;1
+osup;1
+osu;1
+vsemi;1
+ostor;1
+osto;1
+vu;1
+osego;1
+oseg;1
+oseda;1
+osed;1
+ozir;1
+pin;1
+volj;1
+vp;1
+vpr;1
+pela;1
+vpra;1
+vrn;1
+vrni;1
+vrnit;1
+padel;1
+pade;1
+ozirj;1
+prica;1
+ozi;1
+oz;1
+ovolj;1
+ovol;1
+ovo;1
+ovim;1
+ovih;1
+ovic;1
+ovenc;1
+vseb;1
+vsebi;1
+reo;1
+retje;1
+retar;1
+utno;1
+reta;1
+reseg;1
+rese;1
+res;1
+uz;1
+uze;1
+uzel;1
+reost;1
+reos;1
+retji;1
+remal;1
+rema;1
+rekra;1
+rekr;1
+rek;1
+rejel;1
+reje;1
+rej;1
+regan;1
+rega;1
+reg;1
+vadl;1
+urm;1
+upok;1
+upoko;1
+rjem;1
+rjave;1
+rjav;1
+riran;1
+rira;1
+rir;1
+uradn;1
+uradu;1
+rici;1
+ricak;1
+vadla;1
+urma;1
+urman;1
+urn;1
+ribli;1
+ribl;1
+urna;1
+rib;1
+rezul;1
+rezu;1
+utn;1
+rez;1
+prtju;1
+raju;1
+vence;1
+radu;1
+vet;1
+radni;1
+radn;1
+vetu;1
+vi ;1
+vici;1
+prvak;1
+prva;1
+prv;1
+venc;1
+prtj;1
+prt;1
+viht;1
+vihte;1
+vilk;1
+prora;1
+vilko;1
+pror;1
+vim;1
+priha;1
+prih;1
+rastr;1
+reboj;1
+rebo;1
+rdina;1
+rdin;1
+val;1
+vali;1
+vanje;1
+vanju;1
+ratu;1
+ratka;1
+ratk;1
+vanu;1
+os ;1
+rast;1
+ras;1
+ranko;1
+velo;1
+ranim;1
+rani;1
+rancu;1
+ranc;1
+rana;1
+rali;1
+rala;1
+Rad;1
+RA;1
+RC;1
+RCI;1
+RL;1
+RLA;1
+RLAM;1
+RLAME;1
+Ra;1
+Ptuju;1
+Radl;1
+Radlj;1
+Reb;1
+Rebe;1
+Reber;1
+Rez;1
+Rezu;1
+Rezul;1
+Pot;1
+Pl;1
+Ple;1
+Plem;1
+Pleme;1
+Po ;1
+Pok;1
+Pokl;1
+Poklu;1
+Ru;1
+Potn;1
+Potni;1
+Prv;1
+Prva;1
+Prvak;1
+Pt;1
+Ptu;1
+Ptuj;1
+Todo;1
+TARC;1
+TARCI;1
+Ta;1
+Tam;1
+Tam ;1
+Tinet;1
+To;1
+Tod;1
+TAR;1
+Todor;1
+Tud;1
+Tudi;1
+Ur ;1
+Uro;1
+Uro ;1
+Ve ;1
+Vel;1
+Spo;1
+Rup;1
+Rupa;1
+Rupar;1
+SD ;1
+SN;1
+SNS;1
+SNS ;1
+Sp;1
+Pirat;1
+Spon;1
+Sponz;1
+Sta;1
+Stab;1
+Str;1
+Stra;1
+Stran;1
+TA;1
+NS ;1
+Muz;1
+Muze;1
+Muzel;1
+N ;1
+NE;1
+NEP;1
+NEPA;1
+NEPAR;1
+Mu;1
+NT;1
+NTA;1
+NTAR;1
+NTARC;1
+Naj;1
+Najv;1
+Najve;1
+Nat;1
+Megl;1
+Mar;1
+Mark;1
+Marka;1
+Mate;1
+Matej;1
+Matj;1
+Matja;1
+Meg;1
+Nata;1
+Megli;1
+Mi ;1
+Mih;1
+Miha;1
+Mo;1
+Moz;1
+Mozi;1
+Mozir;1
+POR;1
+Od ;1
+PA;1
+PAR;1
+PARL;1
+PARLA;1
+POD;1
+PODP;1
+PODPO;1
+Od;1
+PORA;1
+Pa;1
+Pav;1
+Pave;1
+Pavel;1
+Pi;1
+Pir;1
+Pira;1
+Nove;1
+Ned;1
+Nede;1
+Nedel;1
+Nek;1
+Neka;1
+Nekaj;1
+Nova;1
+Novak;1
+Veli;1
+Novem;1
+OD;1
+ODP;1
+ODPO;1
+ODPOR;1
+OR;1
+ORA;1
+ancu;1
+amejs;1
+ami;1
+amj;1
+amja;1
+amjan;1
+amr;1
+amre;1
+anca;1
+amej;1
+anda;1
+andat;1
+ande;1
+ander;1
+andr;1
+andro;1
+anec;1
+anezu;1
+alim;1
+aka;1
+aki;1
+akov;1
+akova;1
+alc;1
+alcu;1
+ale;1
+ali ;1
+ang;1
+alima;1
+alis;1
+alist;1
+aliza;1
+als;1
+alsk;1
+alski;1
+ama;1
+astr;1
+asa;1
+asar;1
+asm;1
+asmi;1
+asmin;1
+asova;1
+astn;1
+astni;1
+arnim;1
+astru;1
+atan;1
+atank;1
+atej;1
+ateju;1
+ater;1
+atere;1
+atj;1
+apr;1
+angl;1
+angle;1
+anim;1
+animi;1
+anji;1
+anjim;1
+anska;1
+ant;1
+ajvi;1
+aprt;1
+aprtj;1
+arju;1
+arm;1
+arme;1
+armen;1
+arne;1
+arnih;1
+Zbral;1
+Zaupa;1
+Zav;1
+Zava;1
+Zavad;1
+Zbo;1
+Zbor;1
+Zbr;1
+Zbra;1
+Zaup;1
+Zg;1
+Zgo;1
+Zgoj;1
+Zgojz;1
+Zm;1
+Zma;1
+Zmag;1
+Zmagu;1
+Vrtov;1
+Velik;1
+Vesna;1
+Vesne;1
+Vesni;1
+Vre;1
+Vre ;1
+Vrt;1
+Vrto;1
+Zu;1
+X;1
+Xj;1
+Xju;1
+Xju ;1
+Zag;1
+Zago;1
+Zagor;1
+Zau;1
+ail;1
+adlja;1
+adnih;1
+adu;1
+ago;1
+agor;1
+agorj;1
+agu;1
+ai;1
+adlj;1
+ajm;1
+ajma;1
+ajman;1
+ajon;1
+ajp;1
+ajpa;1
+ajpar;1
+aju;1
+absol;1
+Zup;1
+Zupa;1
+Zupan;1
+abr;1
+abra;1
+abral;1
+abs;1
+abso;1
+Macer;1
+aceb;1
+acebo;1
+acer;1
+acerl;1
+adel;1
+adla;1
+adlav;1
+ una;1
+ pol;1
+ pol ;1
+ sa;1
+ saj;1
+ saj ;1
+ ter;1
+ ter ;1
+ un;1
+ onu ;1
+ una ;1
+AM;1
+AME;1
+AMEN;1
+AMENT;1
+ARC;1
+ARCI;1
+ARL;1
+ ka ;1
+ eta;1
+ eta ;1
+ ih;1
+ ih ;1
+ jih;1
+ jih ;1
+ jim;1
+ jim ;1
+ARLA;1
+ ke;1
+ kem;1
+ kem ;1
+ lj;1
+ lji;1
+ lji ;1
+ on;1
+ onu;1
+Bre;1
+Bah ;1
+Bo ;1
+Bog;1
+Bogo;1
+Bogov;1
+Bra;1
+Brat;1
+Bratu;1
+Bah;1
+Breg;1
+Brega;1
+CI;1
+Ce;1
+Cel;1
+Celj;1
+Celju;1
+Cj;1
+Anja;1
+ARLAM;1
+Alen;1
+Alenk;1
+An ;1
+Ana;1
+Anal;1
+Anali;1
+Anj;1
+ et;1
+Ar;1
+Ar ;1
+As;1
+Ast;1
+Asti;1
+Av;1
+Av ;1
+Ba;1
+ L;1
+ IN;1
+ IN ;1
+ Je;1
+ Jel;1
+ Jel ;1
+ Ko;1
+ Kos;1
+ Kos ;1
+ I;1
+ La;1
+ La ;1
+ Mi;1
+ Mi ;1
+ O;1
+ Od;1
+ Od ;1
+ P;1
+ Bah ;1
+ An;1
+ An ;1
+ Ar;1
+ Ar ;1
+ Av;1
+ Av ;1
+ Ba;1
+ Bah;1
+ Po;1
+ Bo;1
+ Bo ;1
+ Ev;1
+ Evi;1
+ Evi ;1
+ G;1
+ GS;1
+ GS ;1
+ ali;1
+ X;1
+ Xj;1
+ Xju;1
+ Xju ;1
+ Z;1
+ Z ;1
+ ah;1
+ ah ;1
+ Vre ;1
+ ali ;1
+ ar;1
+ ar ;1
+ bi ;1
+ da ;1
+ do;1
+ do ;1
+ en ;1
+ Tam ;1
+ Po ;1
+ S ;1
+ SD ;1
+ SN;1
+ SNS;1
+ SNS ;1
+ Ta;1
+ Tam;1
+Cju;1
+ Ur ;1
+ Uro;1
+ Uro ;1
+ Ve;1
+ Ve ;1
+ Vr;1
+ Vre;1
+Jasmi;1
+Izja;1
+Izjav;1
+Jak;1
+Jaka;1
+Jank;1
+Janko;1
+Jas;1
+Jasm;1
+Izj;1
+Jel ;1
+Jer;1
+Jern;1
+Jerne;1
+Kand;1
+Kandi;1
+Kang;1
+Kangl;1
+Gungl;1
+Goric;1
+Gr;1
+Gro;1
+Gros;1
+Grosu;1
+Gu;1
+Gun;1
+Gung;1
+Karl;1
+Hu;1
+Hum;1
+Huma;1
+Humar;1
+IN;1
+IN ;1
+Ivanu;1
+Iz;1
+Lot;1
+LAME;1
+LAMEN;1
+La;1
+La ;1
+Li;1
+Lin;1
+Link;1
+Linke;1
+LAM;1
+Lotr;1
+Lotri;1
+ME;1
+MEN;1
+MENT;1
+MENTA;1
+Mac;1
+Mace;1
+Kol;1
+Karm;1
+Karme;1
+Kla;1
+Klak;1
+Klako;1
+Kle;1
+Klem;1
+Kleme;1
+Gori;1
+Koli;1
+Kolik;1
+Kor;1
+Kord;1
+Kordi;1
+Kos;1
+Kos ;1
+LA;1
+El;1
+EN;1
+ENT;1
+ENTA;1
+ENTAR;1
+EP;1
+EPA;1
+EPAR;1
+EPARL;1
+Dravi;1
+Ele;1
+Elen;1
+Eleno;1
+Er;1
+Erj;1
+Erja;1
+Erjav;1
+Ev;1
+Dale;1
+Cjuh;1
+Cjuha;1
+D ;1
+DP;1
+DPO;1
+DPOR;1
+DPORA;1
+Dal;1
+Evi;1
+Dam;1
+Damj;1
+Damja;1
+Dem;1
+Demo;1
+Demok;1
+Dra;1
+Drav;1
+Gas;1
+Franc;1
+Fu;1
+Fur;1
+Furm;1
+Furma;1
+GS;1
+GS ;1
+Ga;1
+Fran;1
+Gasa;1
+Gasar;1
+Gi;1
+Gib;1
+Giba;1
+Giban;1
+Glaso;1
+Gor;1
+Fer;1
+Evi ;1
+Fac;1
+Face;1
+Faceb;1
+Faj;1
+Fajo;1
+Fajon;1
+Fe;1
+atja;1
+Fera;1
+Ferat;1
+Fok;1
+Foku;1
+Fokus;1
+Fr;1
+Fra;1
+ker;1
+kami;1
+kat;1
+kate;1
+kater;1
+keg;1
+kega;1
+kem;1
+kem ;1
+kama;1
+kli;1
+klic;1
+klicu;1
+klo;1
+klop;1
+klopi;1
+klu;1
+kluk;1
+ju ;1
+jpa;1
+jpar;1
+jparl;1
+jski;1
+jskih;1
+jst;1
+jstv;1
+jstvu;1
+kluka;1
+juh;1
+juha;1
+jvi;1
+jz;1
+jzn;1
+jzni;1
+jznik;1
+ka ;1
+lako;1
+kturn;1
+kupi;1
+kupin;1
+kupn;1
+kupni;1
+kus;1
+ladn;1
+ladni;1
+ktur;1
+lanca;1
+lane;1
+lanec;1
+last;1
+lastn;1
+lc;1
+lcu;1
+lenk;1
+kovan;1
+koj;1
+koje;1
+kojen;1
+kom;1
+koo;1
+koor;1
+koord;1
+kova;1
+jp;1
+kraju;1
+kratk;1
+krato;1
+kre;1
+kret;1
+kreta;1
+kt;1
+ktu;1
+irati;1
+inf;1
+infr;1
+infra;1
+inke;1
+inker;1
+irala;1
+irana;1
+irat;1
+inetu;1
+irih;1
+isc;1
+ister;1
+istim;1
+isto;1
+item;1
+itemu;1
+itika;1
+im ;1
+ihte;1
+ihtel;1
+ike;1
+ikom;1
+iku;1
+ilk;1
+ilko;1
+ilne;1
+ive;1
+imat;1
+imata;1
+ime;1
+imel;1
+inan;1
+inat;1
+inato;1
+inet;1
+jit;1
+jemu;1
+jenc;1
+jence;1
+jih ;1
+jiho;1
+jihov;1
+jim ;1
+jima;1
+jema;1
+jiti;1
+jk;1
+jko;1
+jm;1
+jma;1
+jman;1
+jmanj;1
+jon;1
+jana;1
+ivel;1
+ivelo;1
+izid;1
+izidi;1
+izp;1
+izpa;1
+izpad;1
+jah;1
+lenka;1
+java;1
+jave;1
+javec;1
+jeg;1
+jego;1
+jegov;1
+jel;1
+ndro;1
+ncema;1
+ncev;1
+ncu;1
+ndat;1
+ndata;1
+nde;1
+nder;1
+ndr;1
+nca;1
+ndrom;1
+nec;1
+ned;1
+nede;1
+nedel;1
+neg;1
+nega;1
+netu;1
+namr;1
+najm;1
+najma;1
+najp;1
+najpa;1
+najvi;1
+nal;1
+nali;1
+naliz;1
+neu;1
+namre;1
+nan;1
+nar;1
+narj;1
+narja;1
+nata;1
+natan;1
+nator;1
+njih;1
+nistr;1
+nitem;1
+nitev;1
+niti;1
+njeg;1
+njego;1
+njemu;1
+njen;1
+niste;1
+njiho;1
+njim;1
+njima;1
+nkama;1
+nkami;1
+nker;1
+note;1
+nove;1
+ngler;1
+neur;1
+neura;1
+nezu;1
+nf;1
+nfr;1
+nfra;1
+nfras;1
+ngle;1
+nabra;1
+nglo;1
+nglom;1
+nice;1
+nika;1
+nike;1
+niko;1
+nikom;1
+niku;1
+lne;1
+ljk;1
+ljko;1
+ljs;1
+ljsk;1
+ljski;1
+lju;1
+lk;1
+lko;1
+lji ;1
+lnih;1
+lom;1
+lop;1
+lopi;1
+ls;1
+lsk;1
+lski;1
+ltati;1
+lim;1
+leno;1
+ler;1
+lerj;1
+lerju;1
+li ;1
+licu;1
+liko;1
+lilne;1
+ltato;1
+lima;1
+lisc;1
+liste;1
+listo;1
+liza;1
+ljah;1
+ljana;1
+lji;1
+mja;1
+mejst;1
+mel;1
+meni;1
+menit;1
+mesto;1
+mih;1
+mirju;1
+mj;1
+mejs;1
+mjan;1
+mok;1
+mokr;1
+mokra;1
+mr;1
+mre;1
+nab;1
+nabr;1
+mail;1
+luk;1
+luka;1
+lukar;1
+lut;1
+lutn;1
+lutno;1
+magu;1
+mai;1
+iht;1
+malo;1
+mand;1
+manda;1
+marj;1
+marju;1
+mat;1
+mata;1
+dro;1
+dosed;1
+doseg;1
+dovo;1
+dovol;1
+dp;1
+dpo;1
+dpor;1
+dporn;1
+dorov;1
+drom;1
+dru;1
+drug;1
+drugo;1
+drz;1
+drza;1
+drzav;1
+dsedu;1
+dmi;1
+dj;1
+dja;1
+dla;1
+dlav;1
+dlj;1
+dlja;1
+dljah;1
+dm;1
+dstv;1
+dmih;1
+dnic;1
+dnice;1
+dnih;1
+dnika;1
+dniku;1
+dor;1
+doro;1
+ee;1
+edini;1
+edm;1
+edmi;1
+edmih;1
+ednic;1
+edu;1
+eduj;1
+edujo;1
+edin;1
+een;1
+eeno;1
+egan;1
+egant;1
+ege;1
+egel;1
+egl;1
+egli;1
+ebin;1
+dstvo;1
+dujo;1
+eF;1
+eFo;1
+eFot;1
+eFoto;1
+ebe;1
+eber;1
+dini;1
+ebina;1
+eboj;1
+eboo;1
+ebook;1
+eda;1
+edan;1
+edanj;1
+edi;1
+bin;1
+ba;1
+ban;1
+banj;1
+banja;1
+bem;1
+bema;1
+berto;1
+bi ;1
+avneg;1
+bina;1
+bli;1
+boda;1
+boj;1
+boo;1
+book;1
+booku;1
+bora;1
+aupa;1
+atk;1
+atka;1
+ator;1
+atorj;1
+atovi;1
+atu;1
+au;1
+aup;1
+brali;1
+aupan;1
+avadl;1
+avec;1
+avel;1
+avih;1
+aviht;1
+avna;1
+avne;1
+delni;1
+ciali;1
+da ;1
+danj;1
+danji;1
+data;1
+deljk;1
+deljs;1
+deln;1
+cial;1
+delu;1
+den;1
+dena;1
+denar;1
+der;1
+dih;1
+dina;1
+dinat;1
+cakov;1
+bran;1
+brani;1
+bs;1
+bso;1
+bsol;1
+bsolu;1
+cak;1
+cako;1
+egov;1
+ceb;1
+cebo;1
+ceboo;1
+cema;1
+cerl;1
+cev;1
+cia;1
+gli;1
+fras;1
+frast;1
+gan;1
+gant;1
+ge;1
+gel;1
+gler;1
+glerj;1
+fra;1
+glo;1
+glom;1
+goj;1
+gojz;1
+gojzn;1
+gore;1
+gorj;1
+gorju;1
+eurad;1
+etjem;1
+etji;1
+etr;1
+etrt;1
+etrti;1
+eu;1
+eur;1
+eura;1
+gove;1
+evici;1
+evil;1
+evilk;1
+fi;1
+fin;1
+fina;1
+finan;1
+fr;1
+ibli;1
+ialis;1
+iba;1
+iban;1
+ibanj;1
+ibe;1
+iber;1
+ibert;1
+ibl;1
+iali;1
+icak;1
+icako;1
+icer;1
+icu;1
+idih;1
+iho;1
+ihov;1
+ihovi;1
+htel;1
+govi;1
+gu;1
+ho;1
+hov;1
+hovi;1
+hovih;1
+ht;1
+hte;1
+etje;1
+htela;1
+hv;1
+hva;1
+hval;1
+hvali;1
+ia;1
+ial;1
+emalo;1
+eljsk;1
+elju;1
+eln;1
+elni;1
+elnih;1
+elu;1
+em ;1
+emal;1
+eljs;1
+emeni;1
+emi;1
+emo;1
+emok;1
+emokr;1
+en ;1
+ena;1
+enar;1
+ekaj;1
+egove;1
+eje;1
+ejel;1
+ejs;1
+ejst;1
+ejstv;1
+eju;1
+eka;1
+enarj;1
+ekra;1
+ekrat;1
+ekre;1
+ekret;1
+el ;1
+elik;1
+eljk;1
+eljko;1
+ertom;1
+erj;1
+erju;1
+erl;1
+ern;1
+erne;1
+ernej;1
+eroda;1
+erto;1
+erem;1
+eseg;1
+esege;1
+esna;1
+esne;1
+esto;1
+eta ;1
+etar;1
+etark;1
+eos;1
+encev;1
+enit;1
+enite;1
+enk;1
+enka;1
+enote;1
+enski;1
+eo;1
+novem;1
+eost;1
+eosta;1
+er ;1
+era;1
+erat;1
+erato;1
+ere;1

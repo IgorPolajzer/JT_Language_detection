@@ -13,11 +13,11 @@ class TextCategorization {
     std::map<std::string, int> frequencies;
 
     static std::string readFileToString(const std::string& fileName);
-    static std::vector<std::pair<std::string, size_t>> readProfileToVector(const std::string& fileName);
+    static std::map<std::string, std::pair<size_t, size_t>> readProfileToVector(const std::string& fileName);
     void tokenize(const std::string& text);
     void hashFrequencies();
 public:
-    // Root input folders
+    // Root input folders.
     static constexpr const char* CORPORA_SRC_DIR = "data/corpora/";
     static constexpr const char* TEST_SRC_DIR = "data/test_files/";
 
@@ -28,7 +28,8 @@ public:
     void generateProfile(const std::string& fileName, bool corporaProfile=false);
     void printNGrams() const;
     void printFrequencies() const;
-    Language classify(const std::string& fileName);
+
+    static Language::Value classify(const std::string &fileName);
 
     std::vector<Token> getTokens() {
         return tokens;

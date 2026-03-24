@@ -4,7 +4,7 @@
 #include "classes/TextCategorization.h"
 
 void generateCorporaProfiles(TextCategorization& textCategorization) {
-    const std::vector<std::string> profiles = {"en.txt", "es.txt", "ge.txt", "hr.txt", "si.txt"};
+    const std::vector<std::string> profiles = {"en.txt", "es.txt", "ge.txt", "it.txt", "si.txt"};
 
     for (const auto &profile : profiles) {
         textCategorization.generateProfile(std::string(TextCategorization::CORPORA_SRC_DIR) + profile, true);
@@ -20,7 +20,8 @@ void classify(TextCategorization& textCategorization, const std::string& fileNam
         baseName.erase(lastDot);
     }
 
-    textCategorization.classify(baseName);
+    const Language::Value language = textCategorization.classify(baseName);
+    std::cout << "The file: '" << fileName << "' was classified as " << Language::toString(language) << std::endl;
 }
 
 int main(const int argc, char** argv) {
