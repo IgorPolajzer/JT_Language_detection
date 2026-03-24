@@ -8,21 +8,27 @@
 #include <string>
 #include <vector>
 
+#include "Language.h"
 #include "Token.h"
 
 
 class TextCategorization {
-    static constexpr std::string LANGUAGE_CORPUS_FOLDER = "languages/";
-    static constexpr std::string PROFILE_FOLDER = "profiles/";
-
     std::vector<Token> tokens;
     std::map<std::string, int> frequencies;
-public:
-    void generateProfile(const std::string& fileName);
+
+    static std::string readFileToString(const std::string& fileName);
+    static std::vector<std::pair<std::string, size_t>> readProfileToVector(const std::string& fileName);
     void tokenize(const std::string& text);
     void hashFrequencies();
+public:
+    static constexpr std::string LANGUAGE_CORPUS_FOLDER = "corpora/";
+    static constexpr std::string TEST_FILES_FOLDER = "test_files/";
+    static constexpr std::string PROFILE_FOLDER = "profiles/";
+
+    void generateProfile(const std::string& fileName, bool corporaProfile=false);
     void printNGrams() const;
     void printFrequencies() const;
+    Language classify(const std::string& fileName);
 
     std::vector<Token> getTokens() {
         return tokens;

@@ -9,8 +9,8 @@
 
 #include "Util.h"
 
-void TextCategorization::generateProfile(const std::string& fileName) {
-    std::ifstream file(LANGUAGE_CORPUS_FOLDER + fileName);
+std::string TextCategorization::readFileToString(const std::string& fileName) {
+    std::ifstream file(fileName);
     if (!file.is_open()) {
         std::cerr << "Failed to open file: " << fileName << std::endl;
     }
@@ -19,32 +19,73 @@ void TextCategorization::generateProfile(const std::string& fileName) {
     std::ostringstream buffer;
     buffer << file.rdbuf();
     std::string stringFile = buffer.str();
-    stringFile = stringFile.substr(0, stringFile.find_last_not_of(" \t\n\r") + 1);
+    return stringFile.substr(0, stringFile.find_last_not_of(" \t\n\r") + 1);
+}
 
+std::vector<std::pair<std::string, size_t>> TextCategorization::readProfileToVector(const std::string& fileName) {
+    std::vector<std::pair<std::string, size_t>> profile;
+    std::ifstream file(fileName);
+
+    if (!file.is_open()) {
+        std::cerr << "Failed to open file: " << fileName << std::endl;
+    }
+
+    std::string line;
+    while (getline(file, line)) {
+        try {
+            static const std::regex profileEntryRegex("[A-Za-z' ]+;[0-9]+");
+
+            if (!std::regex_match(line, profileEntryRegex)) {
+                std::cerr << "Line in profile: '" << line << "' couldnt be processed." << std::endl;
+                continue;
+            }
+
+            const size_t pos = line.find(';');
+            const std::string token = line.substr(0, pos);
+            const int frequency = std::stoi(line.substr(pos + 1));
+
+            profile.emplace_back(token, frequency);
+        } catch (...) {
+            std::cerr << "An exception occured while processing '" << line << "' in the language profile" << std::endl;
+        }
+    }
+
+    file.close();
+
+    return profile;
+}
+
+void TextCategorization::generateProfile(const std::string& fileName, bool corporaProfile) {
     // Generate the profile.
-    tokenize(stringFile);
+    const std::string fileString = readFileToString(fileName);
+    tokenize(fileString);
     for (auto& token : tokens) token.createNgrams();
     hashFrequencies();
 
     // Store the profile.
     std::string outFileName = fileName;
-    std::string suffix = ".txt";
-    const std::size_t suffixPos = outFileName.rfind(suffix);
-    if (suffixPos != std::string::npos) outFileName.erase(suffixPos, suffix.size());
-    Util::writeSortedMapToFile(frequencies, PROFILE_FOLDER + fileName + "_profile.txt");
+    const std::string suffix = ".txt";
+
+    if (const std::size_t suffixPos = outFileName.rfind(suffix); suffixPos != std::string::npos) {
+        outFileName.erase(suffixPos, suffix.size());
+    }
+    if (const std::size_t folderSlash = outFileName.rfind('/'); folderSlash != std::string::npos) {
+        outFileName.erase(0, folderSlash + 1);
+    }
+
+    std::string folderSuffix = corporaProfile == true ? LANGUAGE_CORPUS_FOLDER : TEST_FILES_FOLDER;
+    Util::writeSortedMapToFile(frequencies, PROFILE_FOLDER + folderSuffix + outFileName + "_profile.txt");
 }
 
 void TextCategorization::tokenize(const std::string& text) {
-    std::regex wordRegex("[A-Za-z']+");
+    static const std::regex wordRegex("[A-Za-z']+");
     const auto wordsBegin = std::sregex_iterator(text.begin(), text.end(), wordRegex);
     const auto wordsEnd = std::sregex_iterator();
 
     tokens.clear();
     for (std::sregex_iterator i = wordsBegin; i != wordsEnd; ++i) {
-        std::string token = " " + i->str() + " ";
-
         // Pad token with spaces.
-        tokens.emplace_back(token);
+        tokens.emplace_back(" " + i->str() + " ");
     }
 }
 
@@ -70,4 +111,11 @@ void TextCategorization::printFrequencies() const {
     for (const auto& [token, count] : frequencies) {
         std::cout << "|" << token << "| : " << count << std::endl;
     }
+}
+
+Language TextCategorization::classify(const std::string& fileName) {
+    std::vector profile = readProfileToVector(PROFILE_FOLDER + fileName);
+    std::vector<std::pair<Language, size_t>> distances;
+
+
 }

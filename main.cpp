@@ -2,16 +2,17 @@
 
 #include "classes/TextCategorization.h"
 
-void generateProfiles(TextCategorization& textCategorization) {
+void generateCorporaProfiles(TextCategorization& textCategorization) {
     const std::vector<std::string> profiles = {"en.txt", "es.txt", "ge.txt", "hr.txt", "si.txt"};
 
     for (const auto &profile : profiles) {
-        textCategorization.generateProfile(profile);
+        textCategorization.generateProfile(TextCategorization::LANGUAGE_CORPUS_FOLDER + profile, true);
     }
 }
 
-void classification(TextCategorization& textCategorization, std::string fileName) {
-    std::cout << fileName << std::endl;
+void classify(TextCategorization& textCategorization, const std::string& fileName) {
+    textCategorization.generateProfile(TextCategorization::TEST_FILES_FOLDER + fileName);
+    textCategorization.classify(TextCategorization::TEST_FILES_FOLDER + "en_test_profile");
 }
 
 int main(const int argc, char** argv) {
@@ -24,13 +25,14 @@ int main(const int argc, char** argv) {
 
     std::string mode = argv[1];
     if (mode == "-g") {
-        generateProfiles(textCategorization);
+        generateCorporaProfiles(textCategorization);
     } else if (mode == "-c") {
-        if (argc < 2) {
+        if (argc <= 2) {
             std::cerr << "Usage: " << argv[0] << " -c <file-name>" << std::endl;
+            return 1;
         }
 
-        classification(textCategorization, argv[2]);
+        classify(textCategorization, argv[2]);
     }
 
     return 0;

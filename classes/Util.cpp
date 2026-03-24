@@ -6,6 +6,7 @@
 
 #include <algorithm>
 #include <fstream>
+#include <iostream>
 #include <vector>
 
 bool Util::cmp(std::pair<std::string, int>& a,
@@ -14,7 +15,7 @@ bool Util::cmp(std::pair<std::string, int>& a,
     return a.second > b.second;
 }
 
-void Util::writeSortedMapToFile(std::map<std::string, int> M, std::string fileName)
+void Util::writeSortedMapToFile(std::map<std::string, int> M, const std::string& fileName)
 {
     std::vector<std::pair<std::string, int> > A;
 
@@ -27,6 +28,11 @@ void Util::writeSortedMapToFile(std::map<std::string, int> M, std::string fileNa
 
     // Print the sorted value
     std::ofstream outFile(fileName);
+
+
+    if (!outFile.is_open()) {
+        std::cerr << "Failed to open file: " << fileName << std::endl;
+    }
 
     for (auto&[fst, snd] : A) {
         outFile << fst << ';' << snd << '\n';

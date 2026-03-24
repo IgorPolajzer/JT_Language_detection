@@ -18,7 +18,7 @@ void Token::createNgrams() {
     for (int n = 1; n <= MAX_N_GRAM_LENGTH; ++n) {
         for (int i = 0; i + n <= tokenValue.length(); ++i) {
             std::string nGram = tokenValue.substr(i, n);
-            nGrams.emplace_back(n, nGram);
+            nGrams.emplace_back(n + 1, nGram);
         }
     }
 }
