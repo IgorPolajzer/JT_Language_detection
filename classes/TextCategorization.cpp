@@ -131,7 +131,7 @@ Language::Value TextCategorization::classify(const std::string &profileName, boo
                 if (corporaProfile.is_regular_file()) {
                     size_t totalDistance = 0;
                     std::map<std::string, std::pair<size_t, size_t>> categoryProfile = readProfileToVector(corporaProfile.path().string());
-                    const size_t outOfPlace = categoryProfile.size();
+                    const size_t outOfPlace = categoryProfile.size() / 50;
 
                     // Measure distances between category and document profile.
                     for (const auto& profileEntry : documentProfile) {
