@@ -17,9 +17,7 @@ bool Util::cmp(std::pair<std::string, int>& a,
     return a.second > b.second;
 }
 
-
-
-void Util::writeSortedMapToFile(std::map<std::string, int> M, const std::string& fileName)
+void Util::writeSortedMapToFile(const std::map<std::string, int>& M, const std::string& fileName)
 {
     std::vector<std::pair<std::string, int> > A;
 

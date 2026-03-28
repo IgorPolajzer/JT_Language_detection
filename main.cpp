@@ -16,11 +16,11 @@ void classify(TextCategorization& textCategorization, const std::string& fileNam
 
     // Strip extension for classification lookup logic.
     std::string baseName = fileName;
-    if (size_t lastDot = baseName.find_last_of('.'); lastDot != std::string::npos) {
+    if (const size_t lastDot = baseName.find_last_of('.'); lastDot != std::string::npos) {
         baseName.erase(lastDot);
     }
 
-    const Language::Value language = textCategorization.classify(baseName, true);
+    const Language::Value language = TextCategorization::classify(baseName, true);
     std::cout << "The file: '" << fileName << "' was classified as " << Language::toString(language) << std::endl;
 }
 
